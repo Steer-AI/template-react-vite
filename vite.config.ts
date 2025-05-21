@@ -10,6 +10,8 @@ export default defineConfig(({ mode }) => ({
     port: 3000,
     strictPort: true,
     allowedHosts: [
+      "steercode.dev",
+      "steercode.app",
       ".e2b.dev", 
       ".e2b-foxtrot.dev"
     ]
@@ -20,6 +22,7 @@ export default defineConfig(({ mode }) => ({
     strictPort: true,
     allowedHosts: [
       "steercode.dev",
+      "steercode.app",
       ".e2b.dev", 
       ".e2b-foxtrot.dev"
     ]
